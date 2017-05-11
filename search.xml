@@ -3,6 +3,34 @@
   
     
     <entry>
+      <title><![CDATA[派生自CentOS发行版的EulerOS]]></title>
+      <url>/2017/04/18/EulerOS/</url>
+      <content type="html"><![CDATA[<p><div class="github-widget" data-repo="emeuler/toolkitem"></div><br>EulerOS简单易用，并且为客户提供增强的安全性、良好的兼容性以及高可靠性。它能够满足企业在实际应用中对操作系统不断增长的需求，为用户提供了富有竞争力的开放式IT平台。EulerOS集成了先进的Linux技术，在高性能、稳定性、可用性和可扩展性方面为企业用户带来更多价值。EulerOS可以帮助您实现有效资源重组，突破现状，积极迎接未来挑战。<br><!-- e.g. --><br><a id="more"></a></p>
+<h2 id="官方信息"><a href="#官方信息" class="headerlink" title="官方信息"></a>官方信息</h2><h3 id="官方网址"><a href="#官方网址" class="headerlink" title="官方网址"></a>官方网址</h3><ul>
+<li><a href="http://developer.huawei.com/ict/cn/site-euleros" target="_blank" rel="external">EulerOS</a></li>
+<li><a href="http://developer.huawei.com/ict/cn/site-euleros/product/knowlege" target="_blank" rel="external">EulerOS Docs</a></li>
+<li><a href="http://developer.huawei.com/ict/cn/site-euleros/product/security" target="_blank" rel="external">Security Center</a></li>
+</ul>
+<h3 id="在线体验"><a href="#在线体验" class="headerlink" title="在线体验"></a>在线体验</h3><img src="http://7xwwfs.com1.z0.glb.clouddn.com/EulerOS%20Shell.png" class="[class names]" width="350" height="250" title="Online-Experience">
+<p><a href="http://developer.huawei.com/ict/cn/site-euleros/euleros/quick-experience" target="_blank" rel="external">http://developer.huawei.com/ict/cn/site-euleros/euleros/quick-experience</a></p>
+<h3 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h3><ul>
+<li><a href="http://developer.huawei.com/ict/cn/site-euleros/article/yum" target="_blank" rel="external">repo源配置</a></li>
+<li><a href="http://developer.huawei.com/ict/site-euleros/euleros/repo/yum/" target="_blank" rel="external">Downloads</a></li>
+</ul>
+<h2 id="EulerOS开源社区"><a href="#EulerOS开源社区" class="headerlink" title="EulerOS开源社区"></a>EulerOS开源社区</h2><h3 id="Open-Source-Project"><a href="#Open-Source-Project" class="headerlink" title="Open Source Project"></a>Open Source Project</h3><p><div class="github-widget" data-repo="emeuler/TPM2.0-TSS"></div><br><!-- e.g. --></p>
+<h3 id="Team-Slack-Message"><a href="#Team-Slack-Message" class="headerlink" title="Team Slack Message"></a>Team Slack Message</h3><p><strong><a href="https://shadowwalker.slack.com/messages/C4PSZ7H8D/" target="_blank" rel="external">slack</a></strong></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> EulerOS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[或经世事或隔久时愈发觉得很有道理且美到极致的句子]]></title>
       <url>/2017/03/02/beautiful-sentence/</url>
       <content type="html"><![CDATA[<p>1.东山魁夷 《一片树叶》<br>倘若樱花常开，我们的生命常在，<br>那么两厢邂逅，就不会动人情怀。<br><a id="more"></a></p>
