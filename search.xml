@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title><![CDATA[Github Repository]]></title>
+      <url>/2017/05/19/github-repos/</url>
+      <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><p><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --></p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> repository </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[派生自CentOS发行版的EulerOS]]></title>
       <url>/2017/04/18/EulerOS/</url>
       <content type="html"><![CDATA[<p><div class="github-widget" data-repo="emeuler/toolkitem"></div><br>EulerOS简单易用，并且为客户提供增强的安全性、良好的兼容性以及高可靠性。它能够满足企业在实际应用中对操作系统不断增长的需求，为用户提供了富有竞争力的开放式IT平台。EulerOS集成了先进的Linux技术，在高性能、稳定性、可用性和可扩展性方面为企业用户带来更多价值。EulerOS可以帮助您实现有效资源重组，突破现状，积极迎接未来挑战。<br><!-- e.g. --><br><a id="more"></a></p>
@@ -25,6 +42,23 @@
         <tags>
             
             <tag> EulerOS </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[或经世事或隔久时愈发觉得很有道理且美到极致的句子]]></title>
+      <url>/2017/03/02/beautiful-sentence/</url>
+      <content type="html"><![CDATA[<p>1.东山魁夷 《一片树叶》<br>倘若樱花常开，我们的生命常在，<br>那么两厢邂逅，就不会动人情怀。<br><a id="more"></a></p>
+<p>2.蒲思恒 《愿你走出半生, 归来仍是少年》<br>愿你走出半生，归来仍是少年</p>
+<p>3.特立独行的猫 《你自以为的极限，只是别人的起点》<br>你自以为的极限，只是别人的起点</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 唯美 </tag>
             
         </tags>
         
@@ -63,23 +97,6 @@
         <tags>
             
             <tag> Open Source </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[或经世事或隔久时愈发觉得很有道理且美到极致的句子]]></title>
-      <url>/2017/03/02/beautiful-sentence/</url>
-      <content type="html"><![CDATA[<p>1.东山魁夷 《一片树叶》<br>倘若樱花常开，我们的生命常在，<br>那么两厢邂逅，就不会动人情怀。<br><a id="more"></a></p>
-<p>2.蒲思恒 《愿你走出半生, 归来仍是少年》<br>愿你走出半生，归来仍是少年</p>
-<p>3.特立独行的猫 《你自以为的极限，只是别人的起点》<br>你自以为的极限，只是别人的起点</p>
-]]></content>
-      
-        
-        <tags>
-            
-            <tag> 唯美 </tag>
             
         </tags>
         

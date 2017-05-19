@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://edonym.github.io/"/>
-  <updated>2017-05-11T15:44:04.000Z</updated>
+  <updated>2017-05-19T16:05:22.000Z</updated>
   <id>https://edonym.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Github Repository</title>
+    <link href="https://edonym.github.io/2017/05/19/github-repos/"/>
+    <id>https://edonym.github.io/2017/05/19/github-repos/</id>
+    <published>2017-05-19T14:05:24.000Z</published>
+    <updated>2017-05-19T16:05:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><p><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Java-Books&quot;&gt;&lt;a href=&quot;#Java-Books&quot; class=&quot;headerlink&quot; title=&quot;Java Books&quot;&gt;&lt;/a&gt;Java Books&lt;/h3&gt;&lt;p&gt;&lt;div class=&quot;github-widget&quot; data-repo=&quot;
+    
+    </summary>
+    
+    
+      <category term="github" scheme="https://edonym.github.io/tags/github/"/>
+    
+      <category term="repository" scheme="https://edonym.github.io/tags/repository/"/>
+    
+  </entry>
   
   <entry>
     <title>派生自CentOS发行版的EulerOS</title>
@@ -46,6 +69,29 @@
     
     
       <category term="EulerOS" scheme="https://edonym.github.io/tags/EulerOS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>或经世事或隔久时愈发觉得很有道理且美到极致的句子</title>
+    <link href="https://edonym.github.io/2017/03/02/beautiful-sentence/"/>
+    <id>https://edonym.github.io/2017/03/02/beautiful-sentence/</id>
+    <published>2017-03-02T14:05:24.000Z</published>
+    <updated>2017-05-10T12:25:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.东山魁夷 《一片树叶》<br>倘若樱花常开，我们的生命常在，<br>那么两厢邂逅，就不会动人情怀。<br><a id="more"></a></p>
+<p>2.蒲思恒 《愿你走出半生, 归来仍是少年》<br>愿你走出半生，归来仍是少年</p>
+<p>3.特立独行的猫 《你自以为的极限，只是别人的起点》<br>你自以为的极限，只是别人的起点</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.东山魁夷 《一片树叶》&lt;br&gt;倘若樱花常开，我们的生命常在，&lt;br&gt;那么两厢邂逅，就不会动人情怀。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="唯美" scheme="https://edonym.github.io/tags/%E5%94%AF%E7%BE%8E/"/>
     
   </entry>
   
@@ -90,29 +136,6 @@
     
     
       <category term="Open Source" scheme="https://edonym.github.io/tags/Open-Source/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>或经世事或隔久时愈发觉得很有道理且美到极致的句子</title>
-    <link href="https://edonym.github.io/2017/03/02/beautiful-sentence/"/>
-    <id>https://edonym.github.io/2017/03/02/beautiful-sentence/</id>
-    <published>2017-03-02T14:05:24.000Z</published>
-    <updated>2017-05-10T12:25:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.东山魁夷 《一片树叶》<br>倘若樱花常开，我们的生命常在，<br>那么两厢邂逅，就不会动人情怀。<br><a id="more"></a></p>
-<p>2.蒲思恒 《愿你走出半生, 归来仍是少年》<br>愿你走出半生，归来仍是少年</p>
-<p>3.特立独行的猫 《你自以为的极限，只是别人的起点》<br>你自以为的极限，只是别人的起点</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1.东山魁夷 《一片树叶》&lt;br&gt;倘若樱花常开，我们的生命常在，&lt;br&gt;那么两厢邂逅，就不会动人情怀。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="唯美" scheme="https://edonym.github.io/tags/%E5%94%AF%E7%BE%8E/"/>
     
   </entry>
   
