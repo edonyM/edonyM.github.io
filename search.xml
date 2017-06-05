@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Github Repository]]></title>
       <url>/2017/05/19/github-repos/</url>
-      <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><p><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --></p>
+      <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><p><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --><br><a id="more"></a></p>
 ]]></content>
       
         
@@ -90,6 +90,7 @@
 <li><a href="http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html" target="_blank" rel="external">函数式编程入门教程</a></li>
 <li><a href="https://github.com/judasn/Linux-Tutorial" target="_blank" rel="external">Java程序员眼中的Linux</a></li>
 <li><a href="http://www.huqi.tk/index.php/blog/" target="_blank" rel="external">胡琪</a></li>
+<li><a href="http://www.oschina.net/news/85467/unified-android-messaging-standard" target="_blank" rel="external">工信部放大招：将统一Android消息推送标准</a></li>
 </ul>
 ]]></content>
       
