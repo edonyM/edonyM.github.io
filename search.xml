@@ -5,13 +5,7 @@
     <entry>
       <title><![CDATA[Github Repository]]></title>
       <url>/2017/05/19/github-repos/</url>
-      <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><p><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --><br><a id="more"></a></p>
-<h3 id="Jarvis"><a href="#Jarvis" class="headerlink" title="Jarvis"></a>Jarvis</h3><p><div class="github-widget" data-repo="sukeesh/Jarvis"></div><br><!-- e.g. --></p>
-<h3 id="Dobiasd’s-articles"><a href="#Dobiasd’s-articles" class="headerlink" title="Dobiasd’s articles"></a>Dobiasd’s articles</h3><p><div class="github-widget" data-repo="Dobiasd/articles"></div><br><!-- e.g. --></p>
-<h3 id="Quora-Collection"><a href="#Quora-Collection" class="headerlink" title="Quora Collection"></a>Quora Collection</h3><p><div class="github-widget" data-repo="SandeepTuniki/quora-collection"></div><br><!-- e.g. --></p>
-<h3 id="eBook"><a href="#eBook" class="headerlink" title="eBook"></a>eBook</h3><p><div class="github-widget" data-repo="Alertsu/eBook"></div><br><!-- e.g. --></p>
-<h3 id="TLS-Blueprint"><a href="#TLS-Blueprint" class="headerlink" title="TLS Blueprint"></a>TLS Blueprint</h3><p><div class="github-widget" data-repo="ivanr/bulletproof-tls"></div><br><!-- e.g. --></p>
-<h3 id="System-Design-Primer"><a href="#System-Design-Primer" class="headerlink" title="System Design Primer"></a>System Design Primer</h3><p><div class="github-widget" data-repo="donnemartin/system-design-primer"></div><br><!-- e.g. --></p>
+      <content type="html"><![CDATA[<h3 id="Java-Books"><a href="#Java-Books" class="headerlink" title="Java Books"></a>Java Books</h3><div class="github-widget" data-repo="zzhi/Java_Books"></div><br><!-- e.g. --><br><a id="more"></a><br><br>### Jarvis<br><br><div class="github-widget" data-repo="sukeesh/Jarvis"></div><br><!-- e.g. --><br><br>### Dobiasd’s articles<br><br><div class="github-widget" data-repo="Dobiasd/articles"></div><br><!-- e.g. --><br><br>### Quora Collection<br><br><div class="github-widget" data-repo="SandeepTuniki/quora-collection"></div><br><!-- e.g. --><br><br>### eBook<br><br><div class="github-widget" data-repo="Alertsu/eBook"></div><br><!-- e.g. --><br><br>### TLS Blueprint<br><br><div class="github-widget" data-repo="ivanr/bulletproof-tls"></div><br><!-- e.g. --><br><br>### System Design Primer<br><br><div class="github-widget" data-repo="donnemartin/system-design-primer"></div><br><!-- e.g. --><br><br>### Design resources<br><br><div class="github-widget" data-repo="timmy3131/design-resource"></div><br><!-- e.g. --><br><br>### Git Roam<br><br><div class="github-widget" data-repo="phodal/github-roam"></div>
 ]]></content>
       
         
