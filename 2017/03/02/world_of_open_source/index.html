@@ -1,17 +1,98 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
-    <!--[if lt IE 9]>
-        <style>body {display: none; background: none !important} </style>
-        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
-    <![endif]-->
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="Edony Murphy" />
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Open Source," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Anthelion Shadow" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
 
 
 
@@ -28,62 +109,43 @@
 <meta name="twitter:title" content="World of Open Source">
 <meta name="twitter:description" content="及时跟进开源世界的消息，时刻关注开源社区的新动向。">
 
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
-    <link rel="alternate" href="/atom.xml" title="Anthelion Shadow" type="application/atom+xml">
-
-
-
-    <link rel="shortcut icon" href="/favicon.png">
-
-
-
-    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-
-
-
-    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
-
-    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/purple/pace-theme-minimal.css" rel="stylesheet">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-
-<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
-<title>World of Open Source | Anthelion Shadow</title>
-
-<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-<script>
-    var yiliaConfig = {
-        fancybox: true,
-        animate: true,
-        isHome: false,
-        isPost: true,
-        isArchive: false,
-        isTag: false,
-        isCategory: false,
-        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
-        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
+  };
 </script>
 
 
-    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+  <link rel="canonical" href="https://edonym.github.io/2017/03/02/world_of_open_source/"/>
 
 
 
-    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+  <title>World of Open Source | Anthelion Shadow</title>
+  
+
+
 
 
 
@@ -91,165 +153,177 @@
 
 
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            <img src="/img/avatar.png" class="animated zoomIn">
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">Edony Murphy</a></h1>
-        </hgroup>
 
-        
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-        
+  
+  
+    
+  
 
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
 
-        
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
 
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/">主页</a></li>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/tags/">标签云</a></li>
-                        
-                            <li><a href="https://edonymu.com/author/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" href="mailto:edonyzpc@163.com" title="Email"></a>
-                            
-                                <a class="fa GitHub" href="https://github.com/edonyM" title="GitHub"></a>
-                            
-                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
-                    
-                      <a class="main-nav-link switch-friends-link" href="https://github.com/">GitHub</a>
-                    
-                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
-                    
-                      <a class="main-nav-link switch-friends-link" href="https://edonymu.com">edonymu</a>
-                    
-                      <a class="main-nav-link switch-friends-link" href="https://edonymu.com">aboutme</a>
-                    
-                    </div>
-                </section>
-                
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Anthelion Shadow</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
 
-                
-            </div>
-        </div>
-    </header>                
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Edony Murphy</a></h1>
-      </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                <img src="/img/avatar.png" class="animated zoomIn">
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">Edony Murphy</a></h1>
-            </hgroup>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
             
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/">主页</a></li>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/tags/">标签云</a></li>
-                
-                    <li><a href="https://edonymu.com/author/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" target="_blank" href="mailto:edonyzpc@163.com" title="Email"></a>
-                            
-                                <a class="fa GitHub" target="_blank" href="https://github.com/edonyM" title="GitHub"></a>
-                            
-                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
-                            
-                        </ul>
-            </nav>
-        </header>                
-    </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
 </nav>
-      <div class="body-wrap"><article id="post-world_of_open_source" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/03/02/world_of_open_source/" class="article-date">
-      <time datetime="2017-03-02T14:05:24.000Z" itemprop="datePublished">2017-03-02</time>
-</a>
 
 
-    </div>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
   
-  <div class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-categories" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://edonym.github.io/2017/03/02/world_of_open_source/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Edony Murphy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Anthelion Shadow">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="article-title" itemprop="name">
-      World of Open Source
-    </h1>
-  
-
-      </header>
-      
-      <div class="article-info article-info-post">
+        
+          <h1 class="post-title" itemprop="name headline">World of Open Source</h1>
         
 
-        
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Open-Source/">Open Source</a></li></ul>
-    </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-02T22:05:24+08:00">
+                2017-03-02
+              </time>
+            
 
-        <div class="clearfix"></div>
-      </div>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+            
+
+            
+          </span>
+
           
+
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         <p>及时跟进开源世界的消息，时刻关注开源社区的新动向。<a id="more"></a></p>
 <ul>
 <li><a href="http://joeyh.name/blog/entry/removing_everything_from_github/" target="_blank" rel="external">Debian开发者Joey Hess因为GitHub TOS（服务条款）更新删除了其上的git-annex, propellor, ikiwiki, etckeeper等仓库</a></li>
@@ -282,197 +356,328 @@
       
     </div>
     
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Open-Source/" rel="tag"># Open Source</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/28/to-be-translate-resource/" rel="next" title="To Be Translated">
+                <i class="fa fa-chevron-left"></i> To Be Translated
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/03/02/beautiful-sentence/" rel="prev" title="或经世事或隔久时愈发觉得很有道理且美到极致的句子">
+                或经世事或隔久时愈发觉得很有道理且美到极致的句子 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
-    
-    <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/03/02/world_of_open_source/">World of Open Source</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">Edony Murphy</a></p>
-        <p><span>发布时间:</span>2017-03-02, 22:05:24</p>
-        <p><span>最后更新:</span>2017-07-14, 00:06:34</p>
-        <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/03/02/world_of_open_source/" title="World of Open Source">https://edonym.github.io/2017/03/02/world_of_open_source/</a>
-            <span class="copy-path" data-clipboard-text="原文: https://edonym.github.io/2017/03/02/world_of_open_source/　　作者: Edony Murphy" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
-            <script> var clipboard = new Clipboard('.copy-path'); </script>
-        </p>
-        <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-        </p>
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
     </div>
+  </div>
 
 
+          </div>
+          
 
-    <nav id="article-nav">
+
+          
+
+        </div>
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2017/03/02/beautiful-sentence/">
-                    或经世事或隔久时愈发觉得很有道理且美到极致的句子
-                </a>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Edony Murphy" />
+          <p class="site-author-name" itemprop="name">Edony Murphy</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
             </div>
-        
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/02/28/to-be-translate-resource/">
-                    To Be Translated
-                </a>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              
             </div>
+          
+
+        </nav>
+
         
-    </nav>
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Edony Murphy</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
 
   
-</article>
 
-    <div id="toc" class="toc-article">
-        <strong class="toc-title">文章目录</strong>
-        
-            
-        
-    </div>
-    <style>
-        .left-col .switch-btn,
-        .left-col .switch-area {
-            display: none;
-        }
-        .toc-level-3 i,
-        .toc-level-3 ol {
-            display: none !important;
-        }
-    </style>
-
-    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
-
-    <script>
-        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
-    </script>
-
-
-
-    
-<div class="share">
-    
-        <div class="bdsharebuttonbox">
-            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
-            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
-            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
-            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
-            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
-            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
-        </div>
-        <script>
-            window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"World of Open Source　| Anthelion Shadow　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-        </script>
-    
-
-    
-</div>
-
-
-
-
-
-
-
-
-
-
-    <div class="scroll" id="post-nav-button">
-        
-            <a href="/2017/03/02/beautiful-sentence/" title="上一篇: 或经世事或隔久时愈发觉得很有道理且美到极致的句子">
-                <i class="fa fa-angle-left"></i>
-            </a>
-        
-
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
-
-        
-            <a href="/2017/02/28/to-be-translate-resource/" title="下一篇: To Be Translated">
-                <i class="fa fa-angle-right"></i>
-            </a>
-        
-    </div>
-
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/05/19/github-repos/">Github Repository</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/18/EulerOS/">派生自CentOS发行版的EulerOS</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/02/beautiful-sentence/">或经世事或隔久时愈发觉得很有道理且美到极致的句子</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/02/world_of_open_source/">World of Open Source</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/28/to-be-translate-resource/">To Be Translated</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/02/03/web_treasure/">有意思的web资源</a></li></ul>
-
-
-
-
-    <script>
-        
-    </script>
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                <i class="fa fa-copyright"></i> 
-                2016-2017 Edony Murphy
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
-            </div>
-        </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>| </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
-    </div>
-</footer>
-    </div>
-    
-    <script src="/js/GithubRepoWidget.js"></script>
-
-<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
-
-
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
-</div>
-<script>
-    // Open in New Window
-    
-        var oOpenInNew = {
-             github: ".github-widget a", 
-            
-            
-            
-            
-            
-             archives: ".archive-article-title", 
-             miniArchives: "a.post-list-link", 
-            
-             friends: "#js-friends a", 
-             socail: ".social a" 
-        }
-        for (var x in oOpenInNew) {
-            $(oOpenInNew[x]).attr("target", "_blank");
-        }
-    
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-  </div>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
