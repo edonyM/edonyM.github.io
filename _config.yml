@@ -4,16 +4,16 @@
 
 # Site
 title: Shadow Walker
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+subtitle: 'blog of edony'
+description: 'edony'
+keywords: edony,
+author: edony
+language: zh-Hans
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://edonyM.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -29,6 +29,13 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+- 'tableGenerate/**'
+- 'google61ecfa7ad9c1b2c1.html'
+- 'daka/**'
+- 'layui-select-multiple/**'
+- 'layui-table-merge/**'
+- 'layui-soul-table/**'
+- 'metelle/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -44,7 +51,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -89,6 +96,17 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugin:
+- hexo-generator-feed
+- hexo-generator-sitemap
+search:
+  path: search.xml
+  field: post
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
 ## Themes: https://hexo.io/themes/
 theme: 3-hexo
 
